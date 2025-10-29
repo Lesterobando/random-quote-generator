@@ -1,0 +1,113 @@
+body {
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 20px;
+        justify-content: center;
+        height: 100vh;
+        background: linear-gradient(rgb(16, 16, 240), rgb(152, 210, 233), rgb(72, 134, 206));
+        background-size: 300% 300%;
+        animation: gradientBG 8s ease infinite;
+    }
+    
+    @keyframes gradientBG {
+
+    100% { background-position: 50% 50%; }
+
+    }
+
+    #bg-video {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        transition: opacity 1s ease;
+        /* put behind everything else */
+        z-index: -1;    
+        /* make video cover entire background */
+        object-fit: cover;
+        
+    }
+
+    #quote, #author {
+        /* starts hidden */
+        opacity: 0;
+        /* smooth fade */
+        transition: opacity 0.8s ease-in-out;
+    }
+
+    #quote.show, #author.show {
+        /* fade in */
+        opacity: 1;
+    }
+    #page-title {
+        display: inline-block;
+        text-align: center;
+        padding: 50px;
+        font-size:  4rem;
+        margin-top: 20px;
+        margin-bottom: 150px;
+        opacity: .6;
+        color: black;
+        background: rgb(98, 182, 250);
+        border: none;
+        border-radius: 20px;
+        box-shadow: 0 0 15px rgb(63, 48, 0);
+
+}
+
+    #quote-box {
+        background-color: rgb(17, 114, 224);
+        color: white;
+        padding: 100px;
+        border-radius: 20px;
+        margin-bottom: 100px;
+        opacity: .7;
+        box-shadow: 0 5px 15px rgb(9, 2, 68);
+        max-width: 500px;
+        text-align: center;
+    }
+
+    #quote {
+        font-size: 2rem;
+        margin-bottom: 15px;
+        
+    }
+
+    #author {
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    button {
+        margin: 5px;
+        padding: 10px 20px;
+        font-size: 2rem;
+        border: 3px solid rgb(3, 13, 104);
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    #new-quote {
+        background-color: rgb(4, 248, 36);
+        color: rgb(14, 0, 0);
+        opacity: .7;
+    }
+
+    #copy-quote {
+        background-color: yellow;
+        color: rgb(17, 3, 3);
+        opacity: .7;
+    }
+
+    #thank-you {
+        margin-top: 15px;
+        color: white;
+        font-weight: bold;
+        display: none;
+    }
