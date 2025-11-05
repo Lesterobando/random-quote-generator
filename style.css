@@ -4,7 +4,7 @@ body {
         flex-direction: column;
         align-items: center;
         margin: 0;
-        padding: 20px;
+        padding: 10px;
         justify-content: center;
         height: 100vh;
         background: linear-gradient(rgb(16, 16, 240), rgb(152, 210, 233), rgb(72, 134, 206));
@@ -13,8 +13,8 @@ body {
     }
     
     @keyframes gradientBG {
-
-    100% { background-position: 50% 50%; }
+         0% { backgroun-position: 50% 0%; }
+        100% { background-position: 50% 50%; }
 
     }
 
@@ -48,33 +48,35 @@ body {
     #page-title {
         display: inline-block;
         text-align: center;
-        padding: 50px;
+        padding: 20px;
         font-size:  4rem;
-        margin-top: 20px;
-        margin-bottom: 150px;
+        margin-top: 10px;
+        margin-bottom: 50px;
         opacity: .6;
         color: black;
         background: rgb(98, 182, 250);
         border: none;
         border-radius: 20px;
         box-shadow: 0 0 15px rgb(63, 48, 0);
+        max-width: 90%;
 
 }
 
     #quote-box {
         background-color: rgb(17, 114, 224);
         color: white;
-        padding: 100px;
+        padding: 30px;
         border-radius: 20px;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
         opacity: .7;
         box-shadow: 0 5px 15px rgb(9, 2, 68);
-        max-width: 500px;
+        max-width: 90%;
+        width: 400px;
         text-align: center;
     }
 
     #quote {
-        font-size: 2rem;
+        font-size: 1.2rem;
         margin-bottom: 15px;
         
     }
@@ -87,7 +89,7 @@ body {
     button {
         margin: 5px;
         padding: 10px 20px;
-        font-size: 2rem;
+        font-size: 1rem;
         border: 3px solid rgb(3, 13, 104);
         border-radius: 10px;
         cursor: pointer;
@@ -110,4 +112,5 @@ body {
         color: white;
         font-weight: bold;
         display: none;
+
     }
