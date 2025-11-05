@@ -52,7 +52,8 @@ body {
         margin-bottom: 50px;
         opacity: .6;
         color: black;
-        background: rgb(98, 182, 250);
+        background: none;
+        border: none;  
        
 }
 
@@ -116,4 +117,5 @@ body {
         display: none;
         text-shadow: 4px 4px 4px rgb(0, 0, 0);
     }
+
 
