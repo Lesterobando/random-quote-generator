@@ -10,12 +10,6 @@ body {
         box-sizing: border-box;
         
     }
-    
-    @keyframes gradientBG {
-         0% { backgroun-position: 50% 50%; }
-        100% { background-position: 50% 50%; }
-
-    }
 
     #bg-video {
         position: fixed;
@@ -33,18 +27,7 @@ body {
         filter: brightness(83%);
         
     }
-
-    #quote, #author {
-        /* starts hidden */
-        opacity: 0;
-        /* smooth fade */
-        transition: opacity 0.8s ease-in-out;
-    }
-
-    #quote.show, #author.show {
-        /* fade in */
-        opacity: 1;
-    }
+  
     #page-title {
         display: inline-block;
         text-align: center;
@@ -144,7 +127,24 @@ body {
         padding: 80px; 
         margin-bottom: 100px;
     }
+
+    @keyframes gradientBG {
+         0% { backgroun-position: 50% 50%; }
+        100% { background-position: 50% 50%; }
+   }
+   #quote, #author {
+        /* starts hidden */
+        opacity: 0;
+        /* smooth fade */
+        transition: opacity 0.8s ease-in-out;
+    }
+
+    #quote.show, #author.show {
+        /* fade in */
+        opacity: 1;
+    }
 }
+
 
 
 
