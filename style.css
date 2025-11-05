@@ -95,12 +95,13 @@ body {
      }
 
     button {
-        margin: 5px;
-        padding: 10px 20px;
+        mind-width: 120px;
+        padding: 12px 24px;
         font-size: 1rem;
         border: none;
-        border-radius: 10px;
+        border-radius: 12px;
         cursor: pointer;
+        font-weight: 600;
         transition: background-color 0.3s, color 0.3s;
     }
 
@@ -129,6 +130,7 @@ body {
         display: none;
         text-shadow: 4px 4px 4px rgb(0, 0, 0);
     }
+
 
 
 
