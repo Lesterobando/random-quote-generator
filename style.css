@@ -69,7 +69,7 @@ body {
     }
 
     #quote {
-        font-size: 3rem;
+        font-size: 2.5rem;
         margin-bottom: 15px;
         font-weight: bold;
         text-shadow: 5px 5px 5px rgb(0, 21, 59);
@@ -117,6 +117,7 @@ body {
         display: none;
         text-shadow: 4px 4px 4px rgb(0, 0, 0);
     }
+
 
 
 
