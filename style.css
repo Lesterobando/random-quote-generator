@@ -63,10 +63,11 @@ body {
         color: rgb(255, 255, 255);
         font-size: 1.5rem;
         text-shadow: 5px 5px 5px rgb(0, 21, 59);
-        padding: 100px;
-        margin-bottom: 100px;
-        opacity: .7;
-        max-width: 400px;
+        padding: clamp(20px, 5vw, 100px);
+        margin-bottom: 5vh;
+        opacity: .85;
+        max-width: 500px;
+        width: 90%;
         text-align: center;
     }
 
@@ -119,6 +120,7 @@ body {
         display: none;
         text-shadow: 4px 4px 4px rgb(0, 0, 0);
     }
+
 
 
 
