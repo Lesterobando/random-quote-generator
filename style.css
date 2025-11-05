@@ -86,7 +86,7 @@ body {
     button {
         margin: 5px;
         padding: 10px 20px;
-        font-size: 1.5rem;
+        font-size: 1rem;
         border: none;
         border-radius: 10px;
         cursor: pointer;
@@ -118,6 +118,7 @@ body {
         display: none;
         text-shadow: 4px 4px 4px rgb(0, 0, 0);
     }
+
 
 
 
