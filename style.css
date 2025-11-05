@@ -7,13 +7,11 @@ body {
         padding: 10px;
         justify-content: center;
         height: 100vh;
-        background: linear-gradient(rgb(16, 16, 240), rgb(152, 210, 233), rgb(72, 134, 206));
-        background-size: 300% 300%;
-        animation: gradientBG 8s ease infinite;
+        
     }
     
     @keyframes gradientBG {
-         0% { backgroun-position: 50% 0%; }
+         0% { backgroun-position: 50% 50%; }
         100% { background-position: 50% 50%; }
 
     }
@@ -55,29 +53,26 @@ body {
         opacity: .6;
         color: black;
         background: rgb(98, 182, 250);
-        border: none;
-        border-radius: 20px;
-        box-shadow: 0 0 15px rgb(63, 48, 0);
-        max-width: 90%;
-
+       
 }
 
     #quote-box {
-        background-color: rgb(17, 114, 224);
-        color: white;
-        padding: 30px;
-        border-radius: 20px;
-        margin-bottom: 50px;
+        color: rgb(255, 255, 255);
+        font-size: 1.5rem;
+        text-shadow: 5px 5px 5px rgb(0, 21, 59);
+        padding: 100px;
+        margin-bottom: 100px;
         opacity: .7;
-        box-shadow: 0 5px 15px rgb(9, 2, 68);
-        max-width: 90%;
-        width: 400px;
+        max-width: 500px;
         text-align: center;
     }
 
     #quote {
         font-size: 1.2rem;
         margin-bottom: 15px;
+        font-weight: bold;
+        text-shadow: 5px 5px 5px rgb(0, 21, 59);
+        color: rgb(255, 255, 255);
         
     }
 
@@ -89,22 +84,29 @@ body {
     button {
         margin: 5px;
         padding: 10px 20px;
-        font-size: 1rem;
-        border: 3px solid rgb(3, 13, 104);
+        font-size: 2rem;
+        border: none;
         border-radius: 10px;
         cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    button:hover {
+        transform: scale(1.05);
+        background-color: blue;
+        color: white;
     }
 
     #new-quote {
-        background-color: rgb(4, 248, 36);
-        color: rgb(14, 0, 0);
-        opacity: .7;
+        background-color: rgba(29, 129, 243, 0.548);
+        color: rgb(255, 255, 255);
+        text-shadow: 4px 4px 4px rgb(0, 0, 0);
     }
 
     #copy-quote {
-        background-color: yellow;
-        color: rgb(17, 3, 3);
-        opacity: .7;
+       background-color: rgba(131, 169, 240, 0.692);
+        color: rgb(255, 255, 255);
+        text-shadow: 4px 4px 4px rgb(0, 0, 0);
     }
 
     #thank-you {
@@ -112,5 +114,6 @@ body {
         color: white;
         font-weight: bold;
         display: none;
-
+        text-shadow: 4px 4px 4px rgb(0, 0, 0);
     }
+
