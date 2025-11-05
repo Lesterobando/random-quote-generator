@@ -113,13 +113,13 @@ body {
     }
 
     #new-quote {
-        background-color: rgba(29, 129, 243, 0.548);
+        background-color: rgba(29, 129, 243, 0.8);
         color: rgb(255, 255, 255);
         text-shadow: 4px 4px 4px rgb(0, 0, 0);
     }
 
     #copy-quote {
-       background-color: rgba(131, 169, 240, 0.692);
+       background-color: rgba(131, 169, 240, 0.8);
         color: rgb(255, 255, 255);
         text-shadow: 4px 4px 4px rgb(0, 0, 0);
     }
@@ -131,6 +131,7 @@ body {
         display: none;
         text-shadow: 4px 4px 4px rgb(0, 0, 0);
     }
+
 
 
 
