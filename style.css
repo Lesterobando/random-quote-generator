@@ -131,6 +131,20 @@ body {
         display: none;
         text-shadow: 4px 4px 4px rgb(0, 0, 0);
     }
+/* ------------------- MEDIA QUERIES (ADAPTIVE DESIGN) ------------------- */
+/* Apply larger spacing and font sizes for wide screens (Laptops/Desktops) */
+@media (min-width: 1024px) {
+    body {
+        /* Restore original large padding for large screens */
+        padding: 50px; 
+    }
+    
+    #quote-box {
+        /* Larger padding */
+        padding: 80px; 
+        margin-bottom: 100px;
+    }
+}
 
 
 
