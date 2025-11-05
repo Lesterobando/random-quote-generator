@@ -48,10 +48,10 @@ body {
     #page-title {
         display: inline-block;
         text-align: center;
-        padding: 20px;
-        font-size:  4rem;
+        padding: 1rem;
+        font-size:  clamp(2rem, 8vw, 4rem);
         margin-top: 10px;
-        margin-bottom: 50px;
+        margin-bottom: 5vh;
         opacity: .6;
         color: black;
         background: none;
@@ -119,6 +119,7 @@ body {
         display: none;
         text-shadow: 4px 4px 4px rgb(0, 0, 0);
     }
+
 
 
 
