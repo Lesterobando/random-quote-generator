@@ -86,6 +86,14 @@ body {
         font-size: clamp(1rem, 3vw, 1.25rem);
     }
 
+    .button-container {
+       display: flex;
+       flex-wrap: wrap; /* Allows buttons to wrap on small screens */
+       justify-content: center;
+       gap: 1rem; /* Space between buttons */
+       margin-top: 20px;
+     }
+
     button {
         margin: 5px;
         padding: 10px 20px;
@@ -121,6 +129,7 @@ body {
         display: none;
         text-shadow: 4px 4px 4px rgb(0, 0, 0);
     }
+
 
 
 
