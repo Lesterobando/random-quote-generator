@@ -106,8 +106,9 @@ body {
     }
 
     button:hover {
-        transform: scale(1.05);
-        background-color: blue;
+        transform: translateY(-2px)scale(1.05);
+        background-color: #1c6ad6;
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
         color: white;
     }
 
@@ -130,6 +131,7 @@ body {
         display: none;
         text-shadow: 4px 4px 4px rgb(0, 0, 0);
     }
+
 
 
 
