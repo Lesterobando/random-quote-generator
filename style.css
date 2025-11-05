@@ -72,7 +72,7 @@ body {
     }
 
     #quote {
-        font-size: 2rem;
+        font-size: clamp(1.25rem, 5vh, 2rem);
         margin-bottom: 15px;
         font-weight: bold;
         text-shadow: 5px 5px 5px rgb(0, 21, 59);
@@ -83,6 +83,7 @@ body {
     #author {
         font-weight: bold;
         margin-bottom: 20px;
+        font-size: clamp(1rem, 3vw, 1.25rem);
     }
 
     button {
@@ -120,6 +121,7 @@ body {
         display: none;
         text-shadow: 4px 4px 4px rgb(0, 0, 0);
     }
+
 
 
 
